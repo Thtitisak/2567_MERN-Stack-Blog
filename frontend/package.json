@@ -13,5 +13,9 @@
     "daisyui": "^4.12.14",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.16"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "sweetalert2": "^11.14.5"
   }
 }

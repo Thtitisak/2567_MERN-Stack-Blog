@@ -1,0 +1,13 @@
+const mongoose = require("mongoose");
+const { Schema, model } = mongoose;
+
+const PortSchema = new Schema({
+  title: String,
+  summary: String,
+  content: String,
+  cover: String,
+  author: { type: Schema.Types.ObjectId, ref: "User" },
+});
+
+const PortModel = model("Post", PostSchema);
+module.exports = PostModel;
